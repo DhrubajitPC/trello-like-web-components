@@ -1,0 +1,10 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "dhrubajit",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}

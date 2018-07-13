@@ -1,0 +1,10 @@
+.row {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+.column-container {
+  color: white;
+  background: gray;
+  width: 300px;
+  height: 500px;
+  overflow: auto;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.column-container__header {
+  text-align: center;
+}
+
+#cards {
+  height: -webkit-fill-available;
+}

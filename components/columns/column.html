@@ -1,0 +1,11 @@
+<template id="column-template">
+  <link rel="stylesheet" href="/components/columns/column.css">
+  <div class="column-container">
+    <h3 id="column-container__header"></h3>
+    <div id="cards" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+</template>
+
+<link rel="import" href="../cards/card.html">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.14/webcomponents-hi.js"></script>
+<script src="./column.js"></script>
